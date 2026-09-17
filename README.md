@@ -9,8 +9,8 @@ This project uses SQL to perform **Statistical Process Control (SPC)** on manufa
 * **Domain Concepts:** Statistical Process Control (SPC), Quality Assurance, Upper/Lower Control Limits (UCL/LCL).
 
 ## Project Structure
-* `query.sql` — Contains the primary SQL queries used to aggregate data and compute control metrics.
-* `dataset/` — Sample dataset or schema description used for the evaluation.
+* `query-sql` — Contains the primary SQL queries used to aggregate data and compute control metrics.
+* `dataset` — Sample dataset or schema description used for the evaluation.
 
 ## Key Insights & Implementation
 * **Dynamic Control Limits:** Wrote queries utilizing window functions to calculate rolling averages and standard deviations across different operators and production lines.
@@ -18,5 +18,5 @@ This project uses SQL to perform **Statistical Process Control (SPC)** on manufa
 
 ## How to Run the Code
 1. Clone this repository to your local machine.
-2. Load the schema and dataset into your preferred SQL environment (e.g., PostgreSQL, DBeaver, or MySQL Workbench).
-3. Execute `query.sql` to view the step-by-step statistical evaluation.
+2. Load the schema and dataset into your preferred SQL environment (e.g., PostgreSQL).
+3. Execute `query-sql` to view the step-by-step evaluation.
