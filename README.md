@@ -20,3 +20,7 @@ This project uses SQL to perform **Statistical Process Control (SPC)** on manufa
 1. Clone this repository to your local machine.
 2. Load the schema and dataset into your preferred SQL environment (e.g., PostgreSQL).
 3. Execute `query-sql` to view the step-by-step evaluation.
+
+## Output Result
+Limited output to the first 10 rows.
+<img width="915" height="341" alt="Screenshot 2026-09-16 at 5 55 29 PM" src="https://github.com/user-attachments/assets/05952dda-7235-47c1-a945-981a083631c5" />
