@@ -1,4 +1,3 @@
-# Datacamp-Evaluating-a-Manufacturing-Process
 # Evaluating a Manufacturing Process (SQL Project)
 
 ## Project Overview
